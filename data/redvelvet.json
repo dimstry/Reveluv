@@ -1,0 +1,86 @@
+{
+  "light" :
+  [
+    {
+      "Nama" : "Irene",
+      "Nama Asli" : "Bae Joo-hyun",
+      "Posisi" : "Visual",
+      "Lahir" : "29.Maret.1991",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "irene.jpg"
+    },
+    {
+      "Nama" : "Seulgi",
+      "Nama Asli" : "Kang Seul-gi",
+      "Posisi" : "Main Dancer",
+      "Lahir" : "10.Februari.1994",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "seulgi.jpg"
+    },
+    {
+      "Nama" : "Wendy",
+      "Nama Asli" : "Son Seung-wan",
+      "Posisi" : "Main Vokalis",
+      "Lahir" : "21.Februari.1994",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "wendy.jpg"
+    },
+    {
+      "Nama" : "Joy",
+      "Nama Asli" : "Park Soo-young ",
+      "Posisi" : "Lead rapper",
+      "Lahir" : "3.September.1996",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "joy.jpg"
+    },
+     "Nama" : "Yeri",
+      "Nama Asli" : "Kim Ye-rim",
+      "Posisi" : "Maknae",
+      "Lahir" : "5.Maret.1999",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "yeri.jpg"
+    },
+  ],
+  "dark" :
+  [
+    {
+      "Nama" : "Irene",
+      "Nama Asli" : "Bae Joo-hyun",
+      "Posisi" : "Visual",
+      "Lahir" : "29.Maret.1991",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "irene.jpg"
+    },
+    {
+      "Nama" : "Seulgi",
+      "Nama Asli" : "Kang Seul-gi",
+      "Posisi" : "Main Dancer",
+      "Lahir" : "10.Februari.1994",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "seulgi.jpg"
+    },
+    {
+      "Nama" : "Wendy",
+      "Nama Asli" : "Son Seung-wan",
+      "Posisi" : "Main Vokalis",
+      "Lahir" : "21.Februari.1994",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "wendy.jpg"
+    },
+    {
+      "Nama" : "Joy",
+      "Nama Asli" : "Park Soo-young ",
+      "Posisi" : "Lead rapper",
+      "Lahir" : "3.September.1996",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "joy.jpg"
+    },
+     "Nama" : "Yeri",
+      "Nama Asli" : "Kim Ye-rim",
+      "Posisi" : "Maknae",
+      "Lahir" : "5.Maret.1999",
+      "Negara" : "South Korea 🇰🇷",
+      "Gambar" : "yeri.jpg"
+    },
+  ]
+}
