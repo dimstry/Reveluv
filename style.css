@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.my__nav {
+  display: flex;
+  gap: 0.1em;
+  margin-right: -1em;
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(82,82,82,0.953);
+  text-decoration: none;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 48px;
+  height: 26px;
+  background-color: transparent;
+  border: 2px solid var(--blue);
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transform: scale(1.2);
+}
+
+.ball {
+  width: 19px;
+  height: 19px;
+  background-color: var(--blue);
+  position: absolute;
+  padding: 1px;
+  left: 1px;
+  border-radius: 50%;
+}
