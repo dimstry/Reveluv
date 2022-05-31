@@ -2,7 +2,13 @@
   margin: 0;
   padding: 0;
 }
-
+a {
+  color: rgb(60,60,60);
+  text-decoration: none;
+}
+.bx-size {
+  font-size: 27px;
+}
 .my__nav {
   display: flex;
   gap: 0.1em;
@@ -44,5 +50,42 @@
   position: absolute;
   padding: 1px;
   left: 1px;
+  border-radius: 50%;
+}
+.card {
+  padding-bottom: 0.5em;
+}
+.sm__town {
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,0.533);
+}
+.rv__grup {
+  margin: 0;
+  padding-bottom: 0.2em;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.rv__info {
+  color: rgba(48,48,48,0.757);
+  font-size: 18px;
+  line-height: 2;
+}
+
+
+.rv__sosial {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: start;
+  gap: 0.6rem;
+}
+.rv__slist {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid rgb(34,34,34);
   border-radius: 50%;
 }
