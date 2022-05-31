@@ -112,7 +112,7 @@ body.dark {
   align-items: center;
   justify-content: center;
   background: transparent;
-  border: 2px solid rgb(34,34,34);
+  border: 2px solid var(--dark);
   border-radius: 50%;
 }
 

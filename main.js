@@ -64,10 +64,8 @@ function dark() {
 
 
 // dark mode
-
-
 $('.checkbox').on('click' ,function(){
- var hasil =document.body.classList.toggle('dark');
+ var hasil=document.body.classList.toggle('dark');
  if (hasil === true) {
   $('#daftar-member').html('');
   $('#grup').html('');
@@ -78,7 +76,7 @@ $('.checkbox').on('click' ,function(){
    light();
  }
 });
-// navbar acti itulah
+// navbar active gitulah
 $('.nav-link').on('click', function() {
   $('.nav-link').removeClass('active');
   $('this').addClass('active');
