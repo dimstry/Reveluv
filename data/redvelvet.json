@@ -39,5 +39,10 @@
       "Lahir" : "5.Maret.1999",
       "Negara" : "South Korea 🇰🇷",
       "Gambar" : "yeri.jpg"
-    }]
+    }],
+  "Grup" :
+  [{
+    "Gambar" : "grup.jpg",
+    "Nama" : "Red Valvet"
+  }]
 }

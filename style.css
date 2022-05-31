@@ -1,3 +1,12 @@
+:root {
+  --darkbody: #292c35;
+  --putih: rgb(255,255,255);
+  --dark: rgba(41,41,41,0.909);
+  --abu: rgba(48,48,48,0.757);
+  --abu2: rgba(0,0,0,0.533);
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +18,20 @@ a {
 .bx-size {
   font-size: 27px;
 }
-
+body {
+  margin: 0;
+  transition: background 0.4s linear;
+  transition: all 0.2s linear;
+}
+body.dark {
+  --dark: rgba(255,255,255,0.953);
+  --putih: #292c35;
+  --darkbody: rgb(255,255,255);
+  --abu: rgba(221,221,221,0.702);
+  --abu2: rgba(255,255,255,0.533);
+  background-color: #292c35;
+  color: #fff;
+}
 /* ======= Nav css ======== */
 .my__nav {
   display: flex;
@@ -19,8 +41,9 @@ a {
 .nav-link {
   font-size: 1rem;
   font-weight: 500;
-  color: rgba(82,82,82,0.953);
+  color: var(--dark);
   text-decoration: none;
+
 }
 
 .checkbox:checked + .label .ball {
@@ -36,7 +59,7 @@ a {
   width: 48px;
   height: 26px;
   background-color: transparent;
-  border: 2px solid var(--blue);
+  border: 2px solid var(--dark);
   display: flex;
   border-radius: 50px;
   align-items: center;
@@ -48,7 +71,7 @@ a {
 .ball {
   width: 19px;
   height: 19px;
-  background-color: var(--blue);
+  background-color: var(--dark);
   position: absolute;
   padding: 1px;
   left: 1px;
@@ -61,7 +84,7 @@ a {
 .sm__town {
   margin: 0;
   padding: 0;
-  color: rgba(0,0,0,0.533);
+  color: var(--abu2);
 }
 .rv__grup {
   margin: 0;
@@ -71,7 +94,7 @@ a {
 }
 
 .rv__info {
-  color: rgba(48,48,48,0.757);
+  color: var(--abu);
   font-size: 18px;
   line-height: 2;
 }

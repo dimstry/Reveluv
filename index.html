@@ -11,9 +11,9 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
   <div class="mb-1">
-    <nav class="navbar bg-light">
+    <nav class="navbar">
       <div class="container">
         <div class="nav-brand mt-2">
           <input type="checkbox" class="checkbox" id="checkbox">
@@ -34,10 +34,7 @@
   <div class="container-fluid">
     <!-- ================ Grup Foto ================ -->
     <div class="card" id="grup">
-      <img src="./img/light/grup.jpg" alt="">
-      <p class="text-center mt-2">
-        Irene | Seulgi | Wendy | Joy | Yeri
-      </p>
+      <!--- img grup yg di isi oleh rest api -->
     </div>
     <!-- ================ Grup information ================ -->
     <div class="mt-2">
@@ -54,11 +51,9 @@
     <!-- ================ Grup Sosmed================ -->
     <div class="mt-1">
       <div class="rv__sosial">
-        <a href="">
-          <div class="rv__slist">
-            <i class='bx bxl-facebook bx-size'></i>
-          </div>
-        </a>
+        <div class="rv__slist">
+          <i class='bx bxl-facebook bx-size'></i>
+        </div>
         <div class="rv__slist">
           <i class='bx bxl-instagram bx-size'></i>
         </div>
@@ -82,13 +77,8 @@
           <!---- Yg di isi oleh json ---->
         </div>
       </div>
-
-
+      <!--- Akhir container -->
     </div>
-
-
-
-
 
     <!-- Optional JavaScript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
