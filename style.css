@@ -9,6 +9,8 @@ a {
 .bx-size {
   font-size: 27px;
 }
+
+/* ======= Nav css ======== */
 .my__nav {
   display: flex;
   gap: 0.1em;
@@ -52,6 +54,7 @@ a {
   left: 1px;
   border-radius: 50%;
 }
+/* ========= part Group  ==========*/
 .card {
   padding-bottom: 0.5em;
 }
@@ -88,4 +91,110 @@ a {
   background: transparent;
   border: 2px solid rgb(34,34,34);
   border-radius: 50%;
+}
+
+
+/* ================ Part Member ============= */
+/*profile*/
+
+.cont_m.profile {
+  padding: 40px 0 0 0;
+}
+
+.pf_member {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.pf_member .pf_box_m {
+  position: relative;
+  width: 100%;
+  top: -70px;
+}
+
+.pf_member .pf_box_m div {
+  display: block;
+}
+
+.pf_member.center .pf_img Image {
+  margin-left: 20%;
+}
+
+.pf_member.center .pf_txt {
+  left: 0px;
+}
+
+.pf_member.center .pf_txt_cont {
+  position: relative;
+  margin-right: 29%;
+  padding: 10px 15px 10px 25px;
+}
+
+.pf_member.center .pf_txt_cont p {
+  text-align: left;
+}
+
+.pf_member.center .coend-marker {
+  padding: 5px 15px 5px 25px;
+}
+
+
+
+.pf_img {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.pf_img .rv__member {
+  width: 100%;
+  vertical-align: bottom;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.pf_txt {
+  position: absolute;
+  width: auto;
+  color: #000;
+}
+
+
+.pf_txt .pf_name {
+  position: relative;
+  width: auto;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18pt;
+}
+
+.coend-marker {
+  position: relative;
+  left: 0px;
+  width: auto;
+  background-color: #ffffffc9;
+}
+
+.pf_txt_cont {
+  position: relative;
+  width: 60%;
+  background-color: #ffffffc9;
+  top: 63px;
+}
+
+.pf_txt_cont p {
+  width: 100%;
+  font-size: 10pt;
+  line-height: 22px;
+  color: #000;
+}
+.pf_txt_cont p span {
+  display: inline-block;
+  margin-top: -100px;
+  margin-left: 5px;
 }
