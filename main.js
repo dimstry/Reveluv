@@ -39,8 +39,8 @@ function light() {
   });
 }
 
-// fanction ketika dark mode
 
+// fanction ketika dark mode
 function dark() {
   // function untuk ambil data json
   $.getJSON('data/redvelvet.json', function (data) {

@@ -4,19 +4,22 @@
   --dark: rgba(41,41,41,0.909);
   --abu: rgba(48,48,48,0.757);
   --abu2: rgba(0,0,0,0.533);
+  --nav: rgba(237,237,237,0.8);
 }
 
 
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 a {
   color: rgb(60,60,60);
   text-decoration: none;
 }
 .bx-size {
-  font-size: 27px;
+  font-size: 31px;
+  color: var(--dark);
 }
 body {
   margin: 0;
@@ -29,6 +32,7 @@ body.dark {
   --darkbody: rgb(255,255,255);
   --abu: rgba(221,221,221,0.702);
   --abu2: rgba(255,255,255,0.533);
+  --nav: rgb(65,65,65);
   background-color: #292c35;
   color: #fff;
 }
@@ -44,6 +48,18 @@ body.dark {
   color: var(--dark);
   text-decoration: none;
 
+}
+.active {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark);
+  text-decoration: none;
+}
+.bg-nav {
+  background-color: var(--nav);
+}
+.navbar {
+  margin-bottom: 3em;
 }
 
 .checkbox:checked + .label .ball {
@@ -107,15 +123,18 @@ body.dark {
   gap: 0.6rem;
 }
 .rv__slist {
-  padding: 0.5em;
+  padding: 0.4em;
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
   background: transparent;
   border: 2px solid var(--dark);
   border-radius: 50%;
 }
-
+a:hover {
+  text-decoration: none;
+}
 
 /* ================ Part Member ============= */
 /*profile*/
