@@ -7,4 +7,4 @@ Pengen Laptop:(
 * Allah SWT
 * My Mood 
 * my brain 🧠 untuk ide ini 
-* Mentor ku tersayang yg selalu support <a herf=""></a>
+* Mentor ku <a herf="">@kresna</a> yg selalu support
