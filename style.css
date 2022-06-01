@@ -97,6 +97,9 @@ body.dark {
 .card {
   padding-bottom: 0.5em;
 }
+.card>img {
+  max-height: 270px;
+}
 .sm__town {
   margin: 0;
   padding: 0;
