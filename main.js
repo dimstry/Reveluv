@@ -76,6 +76,7 @@ $('.checkbox').on('click' ,function(){
    light();
  }
 });
+
 // navbar active gitulah
 $('.nav-link').on('click', function() {
   $('.nav-link').removeClass('active');
