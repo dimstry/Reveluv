@@ -4,7 +4,7 @@
     let grup = data.Grup;
     $.each(grup, function(i,data){
       $('#grup').append(`
-       <img src="./img/light/`+ data.Gambar +`" alt="" />
+       <img src="./img/light/`+ data.Gambar +`" alt="">
        <p class="text-center text-dark mt-2">
           Irene | Seulgi | Wendy | Joy | Yeri
         </p>
@@ -13,7 +13,7 @@
     //ini ambil data member di json
     let member = data.RV;
     $.each(member, function(i, data) {
-      $('#daftar-member').append('<div class="cont_m profile" data-aos="fade-up" data-aos-delay="100"><div class="pf_member center"><div class="pf_img"><img class="rv__member" src="img/light/'+ data.Gambar +'" alt="" /></div><div class="pf_box_m"><div class="pf_txt"><div class="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200"> '+ data.Nama +'</div></div><div class="pf_txt_cont" data-aos="fade-right" data-aos-delay="300"><p><span>Nama:'+ data.Nama_Asli+'</span></p><p><span>Tanggal Lahir:'+ data.Lahir +'</span></p></div></div></div></div></div>')
+      $('#daftar-member').append('<div class="cont_m profile" data-aos="fade-up" data-aos-delay="100"><div class="pf_member center"><div class="pf_img"><img class="rv__member" src="img/light/'+ data.Gambar +'" alt="Irene" /></div><div class="pf_box_m"><div class="pf_txt"><div class="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200"> '+ data.Nama +'</div></div><div class="pf_txt_cont" data-aos="fade-right" data-aos-delay="300"><p><span>Nama:'+ data.Nama_Asli+'</span></p><p><span>Tanggal Lahir:'+ data.Lahir +'</span></p></div></div></div></div></div>')
     });
   });
   
@@ -25,7 +25,7 @@ function light() {
     let grup = data.Grup;
     $.each(grup, function(i,data){
       $('#grup').append(`
-       <img src="./img/light/`+ data.Gambar +`" alt="" />
+       <img src="./img/light/`+ data.Gambar +`" alt=""/>
        <p class="text-center text-dark mt-2">
           Irene | Seulgi | Wendy | Joy | Yeri
         </p>
@@ -34,7 +34,7 @@ function light() {
     //ini ambil data member di json
     let member = data.RV;
     $.each(member, function(i, data) {
-      $('#daftar-member').append('<div class="cont_m profile" data-aos="fade-up" data-aos-delay="100"><div class="pf_member center"><div class="pf_img"><img class="rv__member" src="img/light/'+ data.Gambar +'" alt="" /></div><div class="pf_box_m"><div class="pf_txt"><div class="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200"> '+ data.Nama +'</div></div><div class="pf_txt_cont" data-aos="fade-right" data-aos-delay="300"><p><span>Nama:'+ data.Nama_Asli+'</span></p><p><span>Tanggal Lahir:'+ data.Lahir +'</span></p></div></div></div></div></div>')
+      $('#daftar-member').append('<div class="cont_m profile" data-aos="fade-up" data-aos-delay="100"><div class="pf_member center"><div class="pf_img"><img class="rv__member" src="img/light/'+ data.Gambar +'" alt="Irene" /></div><div class="pf_box_m"><div class="pf_txt"><div class="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200"> '+ data.Nama +'</div></div><div class="pf_txt_cont" data-aos="fade-right" data-aos-delay="300"><p><span>Nama:'+ data.Nama_Asli+'</span></p><p><span>Tanggal Lahir:'+ data.Lahir +'</span></p></div></div></div></div></div>')
     });
   });
 }
@@ -48,7 +48,7 @@ function dark() {
     let grup = data.Grup;
     $.each(grup, function(i,data){
       $('#grup').append(`
-       <img src="./img/dark/`+ data.Gambar +`" alt="" />
+       <img src="./img/dark/`+ data.Gambar +`" alt=""/>
        <p class="text-center text-dark mt-2">
           Irene | Seulgi | Wendy | Joy | Yeri
         </p>
@@ -57,7 +57,7 @@ function dark() {
     //ini ambil data member di json
     let member = data.RV;
     $.each(member, function(i, data) {
-      $('#daftar-member').append('<div class="cont_m profile" data-aos="fade-up" data-aos-delay="100"><div class="pf_member center"><div class="pf_img"><img class="rv__member" src="img/dark/'+ data.Gambar +'" alt="Irene" /></div><div class="pf_box_m"><div class="pf_txt"><div class="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200"> '+ data.Nama +'</div></div><div class="pf_txt_cont" data-aos="fade-right" data-aos-delay="300"><p><span>Nama:'+ data.Nama_Asli+'</span></p><p><span>Tanggal Lahir:'+ data.Lahir +'</span></p></div></div></div></div></div>')
+      $('#daftar-member').append('<div class="cont_m profile" data-aos="fade-up" data-aos-delay="100"><div class="pf_member center"><div class="pf_img"><img class="rv__member" src="img/dark/'+ data.Gambar +'" alt="" /></div><div class="pf_box_m"><div class="pf_txt"><div class="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200"> '+ data.Nama +'</div></div><div class="pf_txt_cont" data-aos="fade-right" data-aos-delay="300"><p><span>Nama:'+ data.Nama_Asli+'</span></p><p><span>Tanggal Lahir:'+ data.Lahir +'</span></p></div></div></div></div></div>')
     });
   });
 }
