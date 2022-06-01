@@ -1,6 +1,10 @@
 # Reveluv
 Pengen Laptop:(
-
+## Used 👨‍💻
+* Javascript
+* CSS
+** Boostrap
+* Rest api(json)
 ## 📝 
 * Cuman menjalankan apa yg ada di pikiran buat begini
 ## Thank for
