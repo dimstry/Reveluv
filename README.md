@@ -3,7 +3,7 @@ Pengen Laptop:(
 ## Used 👨‍💻
 * Javascript
 * CSS
-** Boostrap
+* Boostrap
 * Rest api(json)
 ## 📝 
 * Cuman menjalankan apa yg ada di pikiran buat begini
