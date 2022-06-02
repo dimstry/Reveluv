@@ -25,7 +25,7 @@ function light() {
     let grup = data.Grup;
     $.each(grup, function(i,data){
       $('#grup').append(`
-       <img src="./img/light/`+ data.Gambar +`" alt=""/>
+       <img src="./img/light/`+ data.Gambar +`" alt="">
        <p class="text-center text-dark mt-2">
           Irene | Seulgi | Wendy | Joy | Yeri
         </p>
@@ -48,7 +48,7 @@ function dark() {
     let grup = data.Grup;
     $.each(grup, function(i,data){
       $('#grup').append(`
-       <img src="./img/dark/`+ data.Gambar +`" alt=""/>
+       <img src="./img/dark/`+ data.Gambar +`" alt="">
        <p class="text-center text-dark mt-2">
           Irene | Seulgi | Wendy | Joy | Yeri
         </p>
