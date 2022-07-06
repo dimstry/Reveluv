@@ -20,7 +20,6 @@ function light() {
   });
 }
 
-
 // fanction ketika dark mode
 function dark() {
   // function untuk ambil data json
@@ -45,8 +44,7 @@ function dark() {
 
 
 // Nilai default jika tiak meng klik dark mode
-light();
-
+light(); // jalan lan function light
 
 
 
